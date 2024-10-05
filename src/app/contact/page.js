@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function ContactPage() {
     return (
       <div>
@@ -8,6 +9,8 @@ export default function ContactPage() {
         </p>
         <p>Correo electrónico: francisco.araya.work@gmail.com</p>
         <p>Teléfono: +56984240423</p>
+        <Link href="/">Toca aquí para volver a la página principal</Link>
+
       </div>
     );
   }

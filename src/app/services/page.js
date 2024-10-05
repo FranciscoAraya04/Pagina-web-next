@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 export default function FavoriteDishesPage() {
     return (
       <div>
@@ -23,6 +23,7 @@ export default function FavoriteDishesPage() {
             Jugosas y llenas de sabor, las costillas de res son un manjar que Newton siempre
             espera con ansias. Calificación: <span className="rating">★★★★☆</span>
           </p>
+          <Link href="/">Toca aquí para volver a la página principal</Link>
         </div>
       </div>
     );

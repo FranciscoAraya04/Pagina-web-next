@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function AboutPage() {
     return (
       <div>
@@ -9,6 +10,8 @@ export default function AboutPage() {
           y salvar el día en secreto como un superhéroe. Vive con su dueño, Francisco Araya,
           quien se asegura de que Newton siempre tenga la mejor comida para reseñar.
         </p>
+        <Link href="/">Toca aquí para volver a la página principal</Link>
+
       </div>
     );
   }

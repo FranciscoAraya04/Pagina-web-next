@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 export default function EditDishPage({params}) {
 
 
@@ -8,6 +8,8 @@ export default function EditDishPage({params}) {
       <p>
         El plato de {params.id} es buenísimo. 20/10.
       </p>
+      <Link href="/">Toca aquí para volver a la página principal</Link>
+
     </div>
   );
 }
